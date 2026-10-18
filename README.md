@@ -25,7 +25,7 @@ See [plugin instructions](apps/obsidian-plugin/README.md) for additional details
 
 Run `npm test` inside `apps/obsidian-plugin` and `python -m unittest discover -s tests -q` inside `services/writing-engine` (with dependencies installed). GitHub Actions runs both checks on push and pull requests.
 
-Release status: **beta 0.1.0**. Model suggestions are not infallible; examine each proposal before applying it. The Obsidian plugin is desktop-only and requires locally running Ollama and Python services.
+Release status: **beta 0.1.0**. Model suggestions are not infallible; examine each proposal before applying it. The Obsidian plugin is desktop-only and requires locally running Ollama and Python services. **Installing the plugin does not install or start the local engine**; follow the backend setup instructions first. The plugin manifest and version compatibility map are also available at the repository root for Community Directory review.
 
 ## Repository layout
 

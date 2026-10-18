@@ -1,9 +1,10 @@
 {
-  "id": "pt-english-tutor",
-  "name": "PT English Tutor",
-  "version": "0.1.0",
-  "minAppVersion": "1.5.0",
-  "description": "Local-first Portuguese-to-English writing suggestions powered by Ollama.",
-  "author": "PT English Tutor contributors",
-  "isDesktopOnly": true
+    "id":  "pt-english-tutor",
+    "name":  "PT English Tutor",
+    "version":  "0.1.0",
+    "minAppVersion":  "1.5.0",
+    "description":  "Correct English spelling and grammar, translate Portuguese words, and practice with a local AI tutor.",
+    "author":  "andrecasa1995",
+    "isDesktopOnly":  true,
+    "authorUrl":  "https://github.com/andrecasa1995"
 }
