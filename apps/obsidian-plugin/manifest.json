@@ -1,0 +1,9 @@
+{
+  "id": "pt-english-tutor",
+  "name": "PT English Tutor",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Local-first Portuguese-to-English writing suggestions powered by Ollama.",
+  "author": "PT English Tutor contributors",
+  "isDesktopOnly": true
+}

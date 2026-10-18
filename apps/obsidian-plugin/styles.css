@@ -1,0 +1,5 @@
+.pt-tutor-mark { text-decoration-line: underline; text-decoration-style: wavy; text-decoration-color: #4385da; text-underline-offset: 3px; cursor: pointer; }
+.pt-tutor-mark[data-category="grammar"], .pt-tutor-mark[data-category="spelling"] { text-decoration-color: #d65b5b; }
+.pt-tutor-mark[data-category="style"] { text-decoration-color: #c99235; }
+.pt-tutor-modal-original { color: var(--text-muted); }
+.pt-tutor-modal-explanation { margin-top: 12px; }

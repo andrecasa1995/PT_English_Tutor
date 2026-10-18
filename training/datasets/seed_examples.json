@@ -1,0 +1,140 @@
+{
+  "schema_version": "0.1",
+  "examples": [
+    {
+      "id": "agree-01",
+      "group": "agree-01",
+      "text": "She write Python scripts every day.",
+      "edits": [
+        {
+          "original": "write",
+          "replacement": "writes",
+          "category": "grammar",
+          "explanation_pt": "Com she, usamos writes no presente simples."
+        }
+      ]
+    },
+    {
+      "id": "agree-02",
+      "group": "agree-02",
+      "text": "The service run on my laptop.",
+      "edits": [
+        {
+          "original": "run",
+          "replacement": "runs",
+          "category": "grammar",
+          "explanation_pt": "Service é singular: runs."
+        }
+      ]
+    },
+    {
+      "id": "clean-01",
+      "group": "clean-01",
+      "text": "The service runs on my laptop.",
+      "edits": []
+    },
+    {
+      "id": "spell-01",
+      "group": "spell-01",
+      "text": "We trained the model on a datset.",
+      "edits": [
+        {
+          "original": "datset",
+          "replacement": "dataset",
+          "category": "spelling",
+          "explanation_pt": "A grafia correta é dataset."
+        }
+      ]
+    },
+    {
+      "id": "spell-02",
+      "group": "spell-02",
+      "text": "The funcion returns a value.",
+      "edits": [
+        {
+          "original": "funcion",
+          "replacement": "function",
+          "category": "spelling",
+          "explanation_pt": "A grafia correta é function."
+        }
+      ]
+    },
+    {
+      "id": "translate-01",
+      "group": "translate-01",
+      "text": "The pipeline processes dados in batches.",
+      "edits": [
+        {
+          "original": "dados",
+          "replacement": "data",
+          "category": "translation",
+          "explanation_pt": "Dados corresponde a data nesse contexto."
+        }
+      ]
+    },
+    {
+      "id": "translate-02",
+      "group": "translate-02",
+      "text": "The treinamento took two hours.",
+      "edits": [
+        {
+          "original": "treinamento",
+          "replacement": "training",
+          "category": "translation",
+          "explanation_pt": "Treinamento corresponde a training nesse contexto."
+        }
+      ]
+    },
+    {
+      "id": "clean-02",
+      "group": "clean-02",
+      "text": "Our model predicts customer demand.",
+      "edits": []
+    },
+    {
+      "id": "plural-01",
+      "group": "plural-01",
+      "text": "These model are accurate.",
+      "edits": [
+        {
+          "original": "model",
+          "replacement": "models",
+          "category": "grammar",
+          "explanation_pt": "These exige o substantivo plural models."
+        }
+      ]
+    },
+    {
+      "id": "spell-03",
+      "group": "spell-03",
+      "text": "The application uses too much memmory.",
+      "edits": [
+        {
+          "original": "memmory",
+          "replacement": "memory",
+          "category": "spelling",
+          "explanation_pt": "A grafia correta é memory."
+        }
+      ]
+    },
+    {
+      "id": "clean-03",
+      "group": "clean-03",
+      "text": "I am learning how to fine-tune language models.",
+      "edits": []
+    },
+    {
+      "id": "translate-03",
+      "group": "translate-03",
+      "text": "We need mais tempo to test.",
+      "edits": [
+        {
+          "original": "mais tempo",
+          "replacement": "more time",
+          "category": "translation",
+          "explanation_pt": "Mais tempo corresponde a more time."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "description": "Spelling and Portuguese word detection benchmark; exact expected edits reviewed by a human.",
+  "cases": [
+    {
+      "id": "spelling-001",
+      "text": "The neural network have multiples layers.",
+      "expected": [
+        {
+          "original": "have",
+          "replacement": "has"
+        },
+        {
+          "original": "multiples",
+          "replacement": "multiple"
+        }
+      ]
+    },
+    {
+      "id": "spelling-002",
+      "text": "The algoritm process the imput data.",
+      "expected": [
+        {
+          "original": "algoritm",
+          "replacement": "algorithm"
+        },
+        {
+          "original": "process",
+          "replacement": "processes"
+        },
+        {
+          "original": "imput",
+          "replacement": "input"
+        }
+      ]
+    },
+    {
+      "id": "mixed-001",
+      "text": "The model learn from exemplos and makes previsoes.",
+      "expected": [
+        {
+          "original": "learn",
+          "replacement": "learns"
+        },
+        {
+          "original": "exemplos",
+          "replacement": "examples"
+        },
+        {
+          "original": "previsoes",
+          "replacement": "predictions"
+        }
+      ]
+    },
+    {
+      "id": "clean-001",
+      "text": "The neural network has multiple layers.",
+      "expected": []
+    }
+  ]
+}

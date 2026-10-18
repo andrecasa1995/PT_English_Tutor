@@ -1,0 +1,61 @@
+# OS and editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.coverage
+htmlcov/
+
+# JavaScript / TypeScript
+node_modules/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Obsidian plugin generated artifacts
+apps/obsidian-plugin/main.js
+apps/obsidian-plugin/main.js.map
+
+# Local models and application data
+*.gguf
+*.safetensors
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Private local training artifacts (never commit models, logs, or personal data)
+training/outputs/
+training/gpu_snapshot.txt
+training/STOP_CONTINUOUS_CHECKS
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Locally generated distributable packages
+release/

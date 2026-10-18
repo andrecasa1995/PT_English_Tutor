@@ -1,0 +1,406 @@
+{
+  "schema_version": "0.1",
+  "status": "synthetic_curated_for_experimental_training_only",
+  "excluded": {
+    "candidate-025": "tarefa -> assignment needs explicit academic context"
+  },
+  "examples": [
+    {
+      "id": "candidate-001",
+      "group": "candidate-001",
+      "text": "She use the application every day.",
+      "edits": [
+        {
+          "original": "use",
+          "replacement": "uses",
+          "category": "grammar",
+          "explanation_pt": "Com she, o verbo no presente simples recebe -s."
+        }
+      ]
+    },
+    {
+      "id": "candidate-002",
+      "group": "candidate-002",
+      "text": "The program generate a new report.",
+      "edits": [
+        {
+          "original": "generate",
+          "replacement": "generates",
+          "category": "grammar",
+          "explanation_pt": "Program é singular: generates."
+        }
+      ]
+    },
+    {
+      "id": "candidate-003",
+      "group": "candidate-003",
+      "text": "My teammate work remotely.",
+      "edits": [
+        {
+          "original": "work",
+          "replacement": "works",
+          "category": "grammar",
+          "explanation_pt": "Teammate está no singular: works."
+        }
+      ]
+    },
+    {
+      "id": "candidate-004",
+      "group": "candidate-004",
+      "text": "The API return an error.",
+      "edits": [
+        {
+          "original": "return",
+          "replacement": "returns",
+          "category": "grammar",
+          "explanation_pt": "O sujeito API é singular: returns."
+        }
+      ]
+    },
+    {
+      "id": "candidate-005",
+      "group": "candidate-005",
+      "text": "Every student need feedback.",
+      "edits": [
+        {
+          "original": "need",
+          "replacement": "needs",
+          "category": "grammar",
+          "explanation_pt": "Every student é singular: needs."
+        }
+      ]
+    },
+    {
+      "id": "candidate-006",
+      "group": "candidate-006",
+      "text": "These functions runs quickly.",
+      "edits": [
+        {
+          "original": "runs",
+          "replacement": "run",
+          "category": "grammar",
+          "explanation_pt": "Functions está no plural: run."
+        }
+      ]
+    },
+    {
+      "id": "candidate-007",
+      "group": "candidate-007",
+      "text": "Our developers writes unit tests.",
+      "edits": [
+        {
+          "original": "writes",
+          "replacement": "write",
+          "category": "grammar",
+          "explanation_pt": "Developers está no plural: write."
+        }
+      ]
+    },
+    {
+      "id": "candidate-008",
+      "group": "candidate-008",
+      "text": "Two server are online.",
+      "edits": [
+        {
+          "original": "server",
+          "replacement": "servers",
+          "category": "grammar",
+          "explanation_pt": "Two exige o plural servers."
+        }
+      ]
+    },
+    {
+      "id": "candidate-009",
+      "group": "candidate-009",
+      "text": "Several model were evaluated.",
+      "edits": [
+        {
+          "original": "model",
+          "replacement": "models",
+          "category": "grammar",
+          "explanation_pt": "Several exige o substantivo plural."
+        }
+      ]
+    },
+    {
+      "id": "candidate-010",
+      "group": "candidate-010",
+      "text": "Those result look promising.",
+      "edits": [
+        {
+          "original": "result",
+          "replacement": "results",
+          "category": "grammar",
+          "explanation_pt": "Those exige o substantivo no plural: results."
+        }
+      ]
+    },
+    {
+      "id": "candidate-011",
+      "group": "candidate-011",
+      "text": "Please chek the configuration.",
+      "edits": [
+        {
+          "original": "chek",
+          "replacement": "check",
+          "category": "spelling",
+          "explanation_pt": "A grafia correta é check."
+        }
+      ]
+    },
+    {
+      "id": "candidate-012",
+      "group": "candidate-012",
+      "text": "The respose was delayed.",
+      "edits": [
+        {
+          "original": "respose",
+          "replacement": "response",
+          "category": "spelling",
+          "explanation_pt": "A grafia correta é response."
+        }
+      ]
+    },
+    {
+      "id": "candidate-013",
+      "group": "candidate-013",
+      "text": "I updated the dependecies.",
+      "edits": [
+        {
+          "original": "dependecies",
+          "replacement": "dependencies",
+          "category": "spelling",
+          "explanation_pt": "A grafia correta é dependencies."
+        }
+      ]
+    },
+    {
+      "id": "candidate-014",
+      "group": "candidate-014",
+      "text": "We should optimze the query.",
+      "edits": [
+        {
+          "original": "optimze",
+          "replacement": "optimize",
+          "category": "spelling",
+          "explanation_pt": "A grafia correta é optimize."
+        }
+      ]
+    },
+    {
+      "id": "candidate-015",
+      "group": "candidate-015",
+      "text": "The model uses paralel processing.",
+      "edits": [
+        {
+          "original": "paralel",
+          "replacement": "parallel",
+          "category": "spelling",
+          "explanation_pt": "A grafia correta é parallel."
+        }
+      ]
+    },
+    {
+      "id": "candidate-016",
+      "group": "candidate-016",
+      "text": "The output is inconsistant.",
+      "edits": [
+        {
+          "original": "inconsistant",
+          "replacement": "inconsistent",
+          "category": "spelling",
+          "explanation_pt": "A grafia correta é inconsistent."
+        }
+      ]
+    },
+    {
+      "id": "candidate-017",
+      "group": "candidate-017",
+      "text": "He reviewed the algoritm.",
+      "edits": [
+        {
+          "original": "algoritm",
+          "replacement": "algorithm",
+          "category": "spelling",
+          "explanation_pt": "A grafia correta é algorithm."
+        }
+      ]
+    },
+    {
+      "id": "candidate-018",
+      "group": "candidate-018",
+      "text": "The functon accepts two arguments.",
+      "edits": [
+        {
+          "original": "functon",
+          "replacement": "function",
+          "category": "spelling",
+          "explanation_pt": "A grafia correta é function."
+        }
+      ]
+    },
+    {
+      "id": "candidate-019",
+      "group": "candidate-019",
+      "text": "I need to revisar the documentation.",
+      "edits": [
+        {
+          "original": "revisar",
+          "replacement": "review",
+          "category": "translation",
+          "explanation_pt": "Nesse contexto, revisar corresponde a review."
+        }
+      ]
+    },
+    {
+      "id": "candidate-020",
+      "group": "candidate-020",
+      "text": "We fixed the erro in production.",
+      "edits": [
+        {
+          "original": "erro",
+          "replacement": "error",
+          "category": "translation",
+          "explanation_pt": "Erro corresponde a error nesse contexto."
+        }
+      ]
+    },
+    {
+      "id": "candidate-021",
+      "group": "candidate-021",
+      "text": "The equipe completed the deployment.",
+      "edits": [
+        {
+          "original": "equipe",
+          "replacement": "team",
+          "category": "translation",
+          "explanation_pt": "Equipe corresponde a team."
+        }
+      ]
+    },
+    {
+      "id": "candidate-022",
+      "group": "candidate-022",
+      "text": "Please update the arquivo today.",
+      "edits": [
+        {
+          "original": "arquivo",
+          "replacement": "file",
+          "category": "translation",
+          "explanation_pt": "Arquivo corresponde a file."
+        }
+      ]
+    },
+    {
+      "id": "candidate-023",
+      "group": "candidate-023",
+      "text": "The servidor is offline.",
+      "edits": [
+        {
+          "original": "servidor",
+          "replacement": "server",
+          "category": "translation",
+          "explanation_pt": "Servidor corresponde a server nesse contexto."
+        }
+      ]
+    },
+    {
+      "id": "candidate-024",
+      "group": "candidate-024",
+      "text": "My colega tested the feature.",
+      "edits": [
+        {
+          "original": "colega",
+          "replacement": "colleague",
+          "category": "translation",
+          "explanation_pt": "Colega corresponde a colleague."
+        }
+      ]
+    },
+    {
+      "id": "candidate-026",
+      "group": "candidate-026",
+      "text": "The reunião starts at nine.",
+      "edits": [
+        {
+          "original": "reunião",
+          "replacement": "meeting",
+          "category": "translation",
+          "explanation_pt": "Reunião corresponde a meeting."
+        }
+      ]
+    },
+    {
+      "id": "candidate-clean-001",
+      "group": "candidate-clean-001",
+      "text": "Our deployment passed all checks.",
+      "edits": []
+    },
+    {
+      "id": "candidate-clean-002",
+      "group": "candidate-clean-002",
+      "text": "The model runs locally on my laptop.",
+      "edits": []
+    },
+    {
+      "id": "candidate-clean-003",
+      "group": "candidate-clean-003",
+      "text": "My colleagues reviewed the pull request.",
+      "edits": []
+    },
+    {
+      "id": "candidate-clean-004",
+      "group": "candidate-clean-004",
+      "text": "We use Git to track source code.",
+      "edits": []
+    },
+    {
+      "id": "candidate-clean-005",
+      "group": "candidate-clean-005",
+      "text": "This API supports multiple clients.",
+      "edits": []
+    },
+    {
+      "id": "candidate-clean-006",
+      "group": "candidate-clean-006",
+      "text": "The training dataset contains synthetic examples.",
+      "edits": []
+    },
+    {
+      "id": "candidate-clean-007",
+      "group": "candidate-clean-007",
+      "text": "I submitted my assignment before the deadline.",
+      "edits": []
+    },
+    {
+      "id": "candidate-clean-008",
+      "group": "candidate-clean-008",
+      "text": "The application starts without errors.",
+      "edits": []
+    },
+    {
+      "id": "candidate-clean-009",
+      "group": "candidate-clean-009",
+      "text": "These results are consistent with the tests.",
+      "edits": []
+    },
+    {
+      "id": "candidate-clean-010",
+      "group": "candidate-clean-010",
+      "text": "The documentation explains the setup clearly.",
+      "edits": []
+    },
+    {
+      "id": "candidate-clean-011",
+      "group": "candidate-clean-011",
+      "text": "My professor gave us feedback.",
+      "edits": []
+    },
+    {
+      "id": "candidate-clean-012",
+      "group": "candidate-clean-012",
+      "text": "The system stores its configuration locally.",
+      "edits": []
+    }
+  ]
+}

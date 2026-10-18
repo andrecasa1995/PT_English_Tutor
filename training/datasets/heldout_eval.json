@@ -1,0 +1,96 @@
+{
+  "schema_version": "0.1",
+  "purpose": "Frozen synthetic evaluation seed; never use for training or prompt tuning.",
+  "examples": [
+    {
+      "id": "eval-01",
+      "group": "eval-01",
+      "text": "My professor explain the assignment clearly.",
+      "edits": [
+        {
+          "original": "explain",
+          "replacement": "explains",
+          "category": "grammar",
+          "explanation_pt": "O sujeito professor é singular; no presente simples usamos explains."
+        }
+      ]
+    },
+    {
+      "id": "eval-02",
+      "group": "eval-02",
+      "text": "The neural networks learns from labeled data.",
+      "edits": [
+        {
+          "original": "learns",
+          "replacement": "learn",
+          "category": "grammar",
+          "explanation_pt": "O sujeito networks está no plural, portanto o verbo fica learn."
+        }
+      ]
+    },
+    {
+      "id": "eval-03",
+      "group": "eval-03",
+      "text": "I recieve notifications from the server.",
+      "edits": [
+        {
+          "original": "recieve",
+          "replacement": "receive",
+          "category": "spelling",
+          "explanation_pt": "A grafia correta é receive."
+        }
+      ]
+    },
+    {
+      "id": "eval-04",
+      "group": "eval-04",
+      "text": "The model achieved a high acuracy.",
+      "edits": [
+        {
+          "original": "acuracy",
+          "replacement": "accuracy",
+          "category": "spelling",
+          "explanation_pt": "A grafia correta é accuracy."
+        }
+      ]
+    },
+    {
+      "id": "eval-05",
+      "group": "eval-05",
+      "text": "We deployed the aplicação yesterday.",
+      "edits": [
+        {
+          "original": "aplicação",
+          "replacement": "application",
+          "category": "translation",
+          "explanation_pt": "Aplicação corresponde a application no contexto de software."
+        }
+      ]
+    },
+    {
+      "id": "eval-06",
+      "group": "eval-06",
+      "text": "This feature needs mais testes.",
+      "edits": [
+        {
+          "original": "mais testes",
+          "replacement": "more tests",
+          "category": "translation",
+          "explanation_pt": "Mais testes corresponde a more tests."
+        }
+      ]
+    },
+    {
+      "id": "eval-07",
+      "group": "eval-07",
+      "text": "The API responds correctly to valid requests.",
+      "edits": []
+    },
+    {
+      "id": "eval-08",
+      "group": "eval-08",
+      "text": "These experiments were conducted offline.",
+      "edits": []
+    }
+  ]
+}

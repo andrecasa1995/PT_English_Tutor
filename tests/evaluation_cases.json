@@ -1,0 +1,46 @@
+{
+  "description": "Hand-reviewed examples for PT_English_Tutor. Check both suggested edits and explanation accuracy.",
+  "cases": [
+    {
+      "id": "mixed-ai-001",
+      "text": "The algoritmo use different dados and generate resultados for each input.",
+      "expected_edits": [
+        {"original": "algoritmo", "replacement": "algorithm", "category": "translation"},
+        {"original": "use", "replacement": "uses", "category": "grammar"},
+        {"original": "dados", "replacement": "data", "category": "translation"},
+        {"original": "generate", "replacement": "generates", "category": "grammar"},
+        {"original": "resultados", "replacement": "results", "category": "translation"}
+      ],
+      "explanation_note": "The shared subject of uses and generates is algorithm, not data."
+    },
+    {
+      "id": "mixed-ai-002",
+      "text": "This neural network have multiple camadas and learn from exemplos.",
+      "expected_edits": [
+        {"original": "have", "replacement": "has", "category": "grammar"},
+        {"original": "camadas", "replacement": "layers", "category": "translation"},
+        {"original": "learn", "replacement": "learns", "category": "grammar"},
+        {"original": "exemplos", "replacement": "examples", "category": "translation"}
+      ],
+      "explanation_note": "Both verbs are controlled by singular neural network."
+    },
+    {
+      "id": "technical-terms-001",
+      "text": "Precision and recall are different metrics in classification.",
+      "expected_edits": [],
+      "explanation_note": "Do not confuse precision with accuracy."
+    },
+    {
+      "id": "markdown-001",
+      "text": "Read [[Neural Networks]] and `model.fit(X_train, y_train)`.",
+      "expected_edits": [],
+      "explanation_note": "Preserve wikilinks and inline code."
+    },
+    {
+      "id": "portuguese-sentence-001",
+      "text": "O modelo usa dropout para reduzir overfitting.",
+      "expected_edits": [],
+      "explanation_note": "A whole Portuguese sentence is not automatically converted to English."
+    }
+  ]
+}
